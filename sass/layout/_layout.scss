@@ -1,0 +1,53 @@
+header {
+    background-color: $cor-primaria;
+    color: #fff;
+    padding: 20px;
+  
+    h1 {
+      margin: 0;
+    }
+  }
+  
+  nav {
+    background-color: $cor-secundaria;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  
+      li {
+        display: inline-block;
+        margin-right: 20px;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  
+    &.destaque {
+      background-color: #f2f2f2;
+      border-radius: 5px;
+    }
+  
+    h2 {
+      color: $cor-primaria;
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
